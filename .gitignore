@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.spec.bak
+
+# PyInstaller
+build/
+dist/
+
+# Logs & Data
+*.log
+*.zip
+*.part
+*.tmp
+scrcpy_temp.zip
+scrcpy_bundle.zip
+
+# IDE & OS
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
