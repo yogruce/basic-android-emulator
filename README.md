@@ -17,14 +17,20 @@ Modern, bağımsız ve hızlı Android APK test & emülatör oynatıcı.
 
 ## Kurulum ve Çalıştırma
 
-### Kaynak Koddan:
+### ⚡ Tek Tıkla Kurulum ve EXE Derleme (Önerilen):
+Projeyi indirdikten sonra doğrudan **`builder.bat`** dosyasına çift tıklayın:
+1. Gerekli Python kütüphanelerini otomatik yükler.
+2. `dist/APK_Studio_Player.exe` dosyasını tek tıkla derler.
+3. İsteğe bağlı olarak uygulamayı anında başlatır.
+
+### Kaynak Koddan Doğrudan Çalıştırma:
 ```bash
 pip install -r requirements.txt
 python main.py
 ```
+veya **`baslat.bat`** dosyasını çalıştırabilirsiniz.
 
-### Tek Dosya EXE Derleme:
+### Tek Dosya EXE Derleme (Komut Satırından):
 ```bash
 python setup_and_build.py
 ```
-Derlenen dosya `dist/APK_Studio_Player.exe` konumunda oluşturulacaktır.
